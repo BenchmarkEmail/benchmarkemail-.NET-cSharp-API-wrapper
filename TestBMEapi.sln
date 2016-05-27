@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIDLL", "APIDLL.csproj", "{8CBF2DD4-7778-482D-B633-DD985E982771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIDLLTest", "APIDLLTest.csproj", "{E015D582-C752-4DA0-802E-AD61C441C983}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CBF2DD4-7778-482D-B633-DD985E982771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBF2DD4-7778-482D-B633-DD985E982771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBF2DD4-7778-482D-B633-DD985E982771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBF2DD4-7778-482D-B633-DD985E982771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E015D582-C752-4DA0-802E-AD61C441C983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E015D582-C752-4DA0-802E-AD61C441C983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E015D582-C752-4DA0-802E-AD61C441C983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E015D582-C752-4DA0-802E-AD61C441C983}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
