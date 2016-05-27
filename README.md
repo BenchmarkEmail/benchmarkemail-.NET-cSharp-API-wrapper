@@ -1,32 +1,33 @@
-BME .NET API Wrapper
--------------------------------------------------------------------------------
-API Version: 1.0
-Tested under: .NET Framework v2.0
-
 Requires:
-           .NET Framework v2.0 
+           .NET Framework v2.0 or greater
 
 
-***** Setup ***** 
-There are 2 DLLS included in this zipfile, Benchmarkemail Api library 'APIDLL.dll'
-and CookComputing.XmlRpcV2.dll xml-rpc library.
-You will need to include these in your project.
+## Setup
+- There are 2 DLLS included in this zipfile, You will need to include these in your project.
+    - Benchmarkemail Api library 'APIDLL.dll'
+    - CookComputing.XmlRpcV2.dll xml-rpc library.
+- The DLL either goes 
+    - into the "bin" folder under the root of your web app, - or 
+    - into the Global Assembly Cache on the box that the web app runs on.
 
-The DLL either goes into the "bin" folder under the root of your web app, or 
-into the Global Assembly Cache on the box that the web app runs on.
-
-To install it in the GAC, use gacutil.exe to install it, then go to 
+- To install it in the GAC, use gacutil.exe to install it, then go to 
 "%systemroot%\Assembly" and make sure it is there.
 
 
-***** Sample Code ***** 
+### Sample Code
 See the included "Program.cs" file.
 That has all the api examples that you will ever need.
 Get started !!
 
 
-***** License *****
-Copyright (c) 2009 BenchmarkEmail
+# Contact Info 
+- Visit our API page to view our other wrappers and documentation:<br>
+        http://www.benchmarkemail.com/API/Library
+The following are some full examples that you should be able to download, drop into a webserver directory, and make a few key edits. Look for the README files in them to get started.
+
+# Licensing 
+
+Copyright (c) 2016 BenchmarkEmail, released under the MIT license
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
@@ -40,12 +41,8 @@ conditions:
 The above copyright notice and this permission notice shall be
 included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
-OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
-HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
---------------------------------------------------------------------------------------------------------------
+
+## Description
+## Prerequisites
+## Setting Up Your Environment for Java 
+## Importing XML-RPC Libraries
